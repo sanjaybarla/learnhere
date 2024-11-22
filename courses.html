@@ -170,8 +170,11 @@
 <div id="pdfDisplay" class="container my-5">
     <div class="row justify-content-center">
         <div class="col-md-10 text-center">
-            <embed id="pdfViewer" src="" type="application/pdf" width="100%" height="600px">
+            <iframe id="pdfViewer" src="" type="application/pdf" width="100%" height="600px"></iframe>
             <!-- Use an anchor tag for download -->
+            <p>
+                If the PDF is not displaying, you can <a id="downloadLink" href="" download>download it here</a>.
+            </p>            
             <a id="downloadLink" class="btn btn-primary" href="" download>Download PDF</a>
         </div>
     </div>
